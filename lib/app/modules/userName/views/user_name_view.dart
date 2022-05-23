@@ -23,6 +23,7 @@ class UserNameView extends GetView<UserNameController> {
                 UserNameController.userName = value;
               },
               decoration: InputDecoration(
+                  hintText: 'Please enter github user name',
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.grey, width: .5),
                     borderRadius: BorderRadius.circular(10),
